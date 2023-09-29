@@ -1,0 +1,25 @@
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .pulse-animation:hover {
+    animation: pulse 2s ;
+  }
+  .pulse-animation{
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  .saitarra{
+    background-color:hsl(hue, saturation, lightness);
+  }
+ .myimage{
+   color:darkblue
+ }
